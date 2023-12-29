@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import sklearn.cluster as cluster
 
 #2.1
-dataset = pd.read_csv('C:/Users/qiankj/Desktop/KCL/7 Data mining/Coursework/data/wholesale_customers.csv',header = 0)
+dataset = pd.read_csv('./data/wholesale_customers.csv',header = 0)
 wsc_X = dataset.copy()
 
 #drop the attributes Channel & Region
@@ -22,7 +22,7 @@ print("The maximum for each attribute:\n", wsc_max)
 print("The minimum for each attribute:\n", wsc_min)
 
 #2.2
-PLOTS_DIR = 'C:/Users/qiankj/Desktop/KCL/7 Data mining/Coursework/plots/'
+PLOTS_DIR = './plots/'
 n_clusters = 3
 
 #define markers for up to 10 clusters

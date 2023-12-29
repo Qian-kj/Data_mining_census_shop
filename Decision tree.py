@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
 DEBUGGING = True
-DATA_DIR  = 'C:/Users/qiankj/Desktop/Coursework-DM/data/'
+DATA_DIR  = './data/'
 DATA_FILE = 'adult.csv'
 
 #import dataset
